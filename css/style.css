@@ -1,0 +1,169 @@
+ 
+ body{
+    margin: 0;
+    padding: 0;
+}
+img{max-width: 100%;display: block;}
+
+ .portfolio-section{
+
+width: 1000px;
+
+margin: 0 auto;
+
+background: red;
+
+}
+ .head{overflow: hidden;padding: 15px 0;}
+ .head  .logo{
+
+width: 10%;
+
+float: left;
+
+}
+ .head  .logo img{
+
+ }
+
+ .menu {
+    width: 85%;
+    float: left;
+    padding-top: 10px;
+}
+ .menu ul{
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+ .menu ul li{
+    list-style-type: none;
+    display: inline-block;
+}
+ .menu ul li a{
+    color: blue;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: block;
+ 	transition: all 0.5s ease;
+ 	-webkit-transition: all 0.5s ease;
+ 	-moz-transition: all 0.5s ease;
+}
+ .menu ul li a:hover{
+ 	background: #79a7d4;
+ 	color: #fff;
+ }
+
+/* banner */
+ .banner{
+    text-align: center;
+    background-image: url(../images/images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 100px 0;
+    background-position: 100% 70%;
+    background-attachment: fixed;
+    color: red; font-size: 20px; 
+
+}
+ .banner h1{
+    text-shadow: 4px 4px 2px #000;
+    font-size: 44px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+ .banner p{}
+ 
+ .main-content-part{
+ 	overflow: hidden; 
+ }	
+
+ .article{
+ 	    width: 70%;
+    float: left;
+    padding-right: 15px;
+    box-sizing: border-box;
+ }
+ .article img{
+ 	    width: 200px;
+    float: left;
+    padding-right: 15px;
+ }
+ .article p{
+ 	font-size: 20px;
+ 	text-align: justify;
+    line-height: 1.6
+ }
+
+ .sidebar{
+ 	    width: 30%;
+    float: left;
+    box-sizing: border-box;
+ }
+ ol{
+ 	    margin: 0;
+    padding: 0;
+ }
+ ol li{
+ 	list-style: none;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+ }
+ ol li a{}
+ ol li a img{}
+
+
+
+ .footer{
+ 	background: #33373a;
+    color: #fff;
+    overflow: hidden;
+    padding: 10px 0;
+ }
+ .copyright{
+ 	    width: 50%;
+    float: left;
+    text-align: center;
+ }
+ .copyright p{    margin: 0;}
+ .copyright p a{
+ 	    color: #fff;
+    font-style: italic;
+    letter-spacing: 2px;
+ }
+
+ .social {
+ 	float: left;
+    width: 50%;
+ }
+ .social ul{
+ 	    margin: 0;
+    padding: 0;
+    text-align: center;
+ }
+ .social ul li {
+ 	list-style: none;
+    display: inline-block;
+ }
+ .social ul li a{
+ 	    color: #33373a;
+    font-size: 16px;
+    display: block;
+    background: #fff;
+    margin-left: 5px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+ }
+
+
+
+.article p span{    color: #fff;
+    background: #383838;
+    padding: 16px;
+    display: inline-block;
+    display: inline-block;}
